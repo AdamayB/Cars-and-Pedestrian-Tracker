@@ -1,6 +1,7 @@
 import cv2
 from random import randrange
-vid_file = "C:\\Users\\adama\\Downloads\\videoplayback (1).mp4"
+vid_file = input("Enter full file path:")
+# Example = C:\Users\ABC\Downloads\videoplayback (1).mp4
 classifier_file = "car_detector.xml"
 classifier_file2 = "haarcascade_fullbody.xml"
 
